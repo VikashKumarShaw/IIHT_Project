@@ -1,0 +1,44 @@
+<html>
+<head>
+<script type="text/javascript" src="./jquery-3.0.0.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+	
+	
+	<!--- with ,   --->
+        $("p ,table").css("background-color","yellow");
+		
+		
+		<!--- without ,   --->
+        $("p table").css("background-color","yellow");   //doesn't work 
+		
+		<!-- with div it works fine -->
+		$("div table").css("background-color","yellow"); 
+		
+	$("div").slideToggle();
+    });
+});
+</script>
+</head>
+<body>
+<div>
+<p>This is a paragraph.</p>
+kjhjkhk<br>
+bgfsidufhsidu<br>
+nfidusfius<br>
+misjhfidus<br>
+<table>
+<tr>
+<td>acc</td>
+<td>cccc</td><td>aaaaccccccc</td><td>ccccxxxxxxxxx</td></tr>
+</table>
+</div>
+
+
+
+<button>Toggle between slide up and slide down for a p element</button>
+
+</body>
+</html>
