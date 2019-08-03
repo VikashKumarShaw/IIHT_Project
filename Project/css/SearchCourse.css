@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body{
+  background-image: url("../images/images.jfif");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.card-body{
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  margin-top: 10rem;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 3rem;
+  color:#258b47;
+  border-bottom: 0.2rem solid;
+  padding-bottom: 2rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+
+}
+ 
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 3rem;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width:13rem;
+  background-color:#258b47;
+  color:black;
+  
+}
+.form-signin .form-control:focus {
+  border-color: #28a745;
+  outline :0;
+  box-shadow:inset 0 1px 1px #28a745, 0 0 8px #28a745;
+}
+.form-signin .btn:focus {	
+    border-color: #28a745;
+	outline : 0;
+	-webkit-box-shadow:inset 0 1px 1px #28a745, 0 0 8px #28a745;
+	box-shadow:inset 0 1px 1px #28a745, 0 0 8px #28a745;
+    }
+.btn:hover{
+	background-color:#044c48;
+	color:white;
+}

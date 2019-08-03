@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  
+  background-image: url("../images/images.jfif");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.detail{
+  border: 2;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  margin-top: 20rem;
+ 
+}
+.imageDetail
+{
+  border: 2;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  margin-top: 5rem;
+  padding: 2rem;
+  padding-left:4rem;
+}
+p{
+	padding: .015rem;
+}
+.checked {
+	color: green;
+}
+.navbar-inverse .navbar-nav > .active > a{
+	color:white;
+}
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color:green;
+}
+.navbar{
+	background-color: #2d3436;
+background-image: linear-gradient(35deg, #2d3436 10%, #000000 74%);
+}
+.navbar-inverse .navbar-text {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus
+ {
+  color: green;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 2.5rem;
+  border-bottom: 0.2rem solid;
+  padding-bottom: 2rem;
+  color: #258b47f5;
+}
+.card-signin .card-body {
+  padding: 2rem;
+}
