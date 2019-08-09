@@ -1,0 +1,15 @@
+
+<div>
+    <table>
+      <th>your First Name </th>
+      <th>your Last Name</th>
+      <tr *ngFor="let row of rows">
+        <td>{{row.firstname}}</td>
+        <td>{{row.lastname}}</td>
+      </tr>
+    </table>
+</div>
+<hr/>
+<input type="text" [(ngModel)]="firstname" placeholder="First Name"/>
+<input type="text" [(ngModel)]="lastname" placeholder="Last Name"/>
+<button (click)="buttonClicked()">Submit</button>
