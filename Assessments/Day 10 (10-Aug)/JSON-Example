@@ -1,0 +1,38 @@
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in IPL?",
+                "options": [
+                    "Tamil Thallivas",
+                    "Hyderabad Kings",
+                    "Rajasthan Warrior's",
+                    "Kolkata Knight Riders"
+                ],
+                "answer": "Kolkata Knight Riders"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "15 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "22",
+                    "13"
+                ],
+                "answer": "22"
+            },
+            "q2": {
+                "question": "12 - 6 = ?",
+                "options": [
+                    "2",
+                    "4",
+                    "6",
+                    "8"
+                ],
+                "answer": "6"
+            }
+        }
+    }
+}
